@@ -1,0 +1,75 @@
+body{
+    background-color: lightgrey;
+    color: black;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #22FD;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    color:black;
+}
+
+ul.menu{
+    list-style-type: circle;
+}
+
+ul.programas{
+    list-style-type: square;
+}
+
+ul.habilidades{
+    list-style: square;
+}
+
+strong{
+    color: #3f3f3e;
+}
+.button1{
+    background-color: #E1306C;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            transition: background-color 0.3s;
+}
+.button1:hover{
+    background-color: #C13584;
+}
+
+.button1 i{
+    margin-right: 2px;
+    font-size: 20px;
+}
+
+.button2{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.button2:hover{
+    background-color: darkmagenta;
+}
+.button2 i{
+    margin-right: 2px;
+    font-size: 20px;
+}
